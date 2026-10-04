@@ -22,7 +22,7 @@ This profile is where I build that bridge in public.
 
 ## 🛠️ What I work with
 
-**GenAI:** LangChain · OpenAI & Gemini APIs · prompt engineering · tool/function calling · structured outputs (Pydantic) · RAG *(in progress)*
+**GenAI:** LangChain · LangGraph · RAG · OpenAI, Gemini & Groq APIs · prompt engineering · tool/function calling · structured outputs (Pydantic)
 
 **Engineering:** Python · REST/SOAP APIs · Integrations · data mapping & transformation · orchestration & scheduling · deployment pipelines
 
