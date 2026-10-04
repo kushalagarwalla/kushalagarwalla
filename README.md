@@ -12,8 +12,8 @@ This profile is where I build that bridge in public.
 
 | Project | What it does | Stack | Repo |
 |---|---|---|---|
+| **MedReport Assistant** | Upload a PDF lab report and ask about it in plain language — an agent searches the report before every answer, so results come *only* from the report and are judged against the lab's own reference ranges, with guardrails that block diagnosis and medicine advice, put emergencies first, and keep patient IDs private | LangChain · LangGraph · OpenAI · Streamlit · RAG | [🔗](https://github.com/kushalagarwalla/MedReport-Assistant) |
 | **KharchAI** | An expense-tracking chatbot that logs whatever you tell it you spent - an LLM agent turns every question into SQL, so totals are *queried* instead of guessed, and foreign spends convert at the exchange rate from the day you actually spent | LangChain · Groq · SQLite · Streamlit | [🔗](https://github.com/kushalagarwalla/KharchAI) |
-| **Interview Question Generator** | Turns a job description into a ready-to-use interview script - questions drawn *only* from the JD, each tagged with the skill it probes and paired with a model answer, then a second LLM pass critiques the set for coverage and seniority fit | LangChain · OpenAI · Streamlit | [🔗](https://github.com/kushalagarwalla/Interview-Question-Generator) |
 | **Chatmeleon** | A role-play chatbot that becomes any persona you name - guardrails are ranked above the role-play, so picking a character who "would" do something harmful doesn't unlock it, and failed API calls roll back cleanly instead of leaving the chat stuck | LangChain · OpenAI · Streamlit | [🔗](https://github.com/kushalagarwalla/Chatmeleon) |
 
 *More on the way - I'll keep adding as I build.*
